@@ -1,0 +1,54 @@
+Arguments: 
+  /Users/roman.bilyi/.nvm/versions/node/v18.20.8/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js
+
+PATH: 
+  /Users/roman.bilyi/.nvm/versions/node/v18.20.8/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.20.8
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/roman.bilyi/Desktop/projects/cinema/teacinema/crazy-backend/core/package.json: Unexpected token } in JSON at position 198
+      at JSON.parse (<anonymous>)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:310:30)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "@teacinema/core",
+    "version": "1.0.0",
+    "description": "Core utilities and shared setup",
+    "keywords": [],
+    "author": {
+      "name": "Roman",
+      "email": "roman.bilyi@gmail.com",
+    },
+    "license": "ISC",
+    "type": "commonjs",
+    "publishConfig": {
+      "access": "public"
+    },
+    "peerDependencies": {
+      "prettier": "^3.0.0"
+    },
+    "dependencies": {
+      "@trivago/prettier-plugin-sort-imports": "^5.2.2"
+    },
+    "exports": {
+     "prettier-config": "./src/prettier.config.mjs"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
