@@ -1,6 +1,6 @@
 {
   "name": "@roman_teacinema/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Core utilities and shared setup",
   "keywords": [],
   "author": {
@@ -19,7 +19,6 @@
     "@trivago/prettier-plugin-sort-imports": "^5.2.2"
   },
   "exports": {
-   "prettier-config": "./src/prettier.config.mjs"
+    "prettier-config": "./src/prettier.config.mjs"
   }
 }
-
