@@ -1,6 +1,6 @@
 /** @type {import("prettier").Config} */
 export default {
-    trailingComma: "none",
+    trailingComma: 'none',
     tabWidth: 4,
     useTabs: true,
     semi: false,
